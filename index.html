@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/2be24caa72.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png1.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#services">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h1>Hi, I'm <span>Shubhvi Singh</span> <br> from India</h1>
+                </div>
+            </div>
+
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.png.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me!</h1>
+                            <p>I am Shubhvi Singh , a student pursuing B.Tech and having specialization in computer science and engineering.
+                                I am passionate to my work and i have great communication skills either verbal or written. I am good in working 
+                                in a team. I always look for more knowledge and experience.</p>
+                                <div class="tab-titles">
+                                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                                </div>
+                                <div class="tab-contents active-tab" id="skills">
+                                    <ul>
+                                        <li><span>Web-Developer</span><br> Designing-webpages</li>
+                                        <li><span>Frontend-developer</span><br>webpage-design</li>
+                                        <li><span>C++,Basics of java,python</span><br>languages</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-contents" id="experience">
+                                    <ul>
+                                        <li><span>internship</span><br>Coding-raja</li>
+                                        <li><span>Student</span><br>Fresher</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-contents" id="education">
+                                    <ul>
+                                        <li><span>2020-2024</span><br>B.tech from FGIET</li>
+                                        <li><span>2020-2024</span><br>Specialisation in Computer Science and Engineering Dept.</li>
+                                        <li><span>2020</span><br>Studied in ISC board</li>
+                                    </ul>
+                                </div>
+                          </div>
+                      </div>
+            </div>
+        </div>
+        <!--services-->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Designing webpages with the help of HTML,CSS,Javascript.I am able to design both static and dynamic web page with the help of these tools 
+                            mentioned above.</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                    <div>
+                        <i class="fa-solid fa-ghost"></i>
+                        <h2>Front-end Developer</h2>
+                        <p>Designing webpages with the help of HTML,CSS,Javascript.I am able to design both static and dynamic web page with the help of these tools 
+                            mentioned above.</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-bug"></i>
+                        <h2>Problem-solving</h2>
+                        <p>Problem solving capabilities with the C++ languages,some basic knowledge of java and python.</p>
+                            <a href="#">Learn more</a>
+                    </div>
+
+                </div>
+            </div>
+            <!-- -------portfolio------- -->
+             <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-2.png" alt="">
+                        <div class="layer">
+                            <h3>BIG DATA</h3>
+                           <p>A static webpage having basic acknowledgement about big data and their
+                            methods,it also includes the advantages of big data and Hadoop architecture.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-square-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png" alt="">
+                        <div class="layer">
+                            <h3>POPUP PARTIES</h3>
+                           <p>A dynamic responsive webpage that will help others to know more about the restaurants and 
+                            nearby visiting places.
+                           </p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-square-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-1.png" alt="">
+                        <div class="layer">
+                            <h3>MUSIC WEBSITE</h3>
+                           <p>A dynamic responsive web page which would help us to listen songs online resume and pause 
+                            them.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-square-arrow-up-right"></i></a>
+                        </div>
+                    </div> 
+                    </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+    
+                
+
+        </div>
+     </div>
+</div>
+<!-------- contact------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shubhvisingh.29@gmail.com</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="FILE PATH" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-heart"></i> shubhvi singh</p>
+    </div>
+</div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+                
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+                
+            }
+        </script>
+    </body>
+</html>
